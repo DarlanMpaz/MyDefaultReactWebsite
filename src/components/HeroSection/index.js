@@ -5,7 +5,8 @@ import './index.css'
 
 function HeroSection({
     lightBg,
-    topLine, 
+    topLine,
+    headLine,
     lightText, 
     lightTextDesc, 
     headline, 
@@ -25,7 +26,7 @@ function HeroSection({
                         <div className="col">
                             <div className="home__hero-text-wrapper">
                                 <div className="top-line">{topLine}</div>
-                                <h1 className={lightText ? 'heading' : 'heading dark'}>{headline}</h1>
+                                <h1 className={lightText ? 'heading' : 'heading dark'}>{headLine}</h1>
                                 <p className={lightTextDesc ? 'home__hero-subtitle' : 'home__hero-subtitle dark'}>{description}</p>
                                 <Link to='/sign-up'>
                                     <Button

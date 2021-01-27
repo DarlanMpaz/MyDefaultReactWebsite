@@ -1,11 +1,11 @@
 {
   "files.exclude": {
-    "README.md": true,
-    "package-lock.json": true,
-    ".gitignore": true,
-    ".eslintcache": true,
-    "public": true,
-    "node_modules": true,
-    "package.json": true
+    "README.md": false,
+    "package-lock.json": false,
+    ".gitignore": false,
+    ".eslintcache": false,
+    "public": false,
+    "node_modules": false,
+    "package.json": false
   }
 }
